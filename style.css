@@ -1,0 +1,172 @@
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+main {
+  width: 70%;
+  display: inline-block;
+}
+/* navbar */
+nav{
+  position: fixed;
+  top: 200px;
+  left: 3px;
+}
+nav a{
+  display: block;
+}
+nav img{
+  /* margin-top: -5px; */
+ height: 40px;
+ width: 40px;
+}
+/* li h4{
+  text-transform: uppercase;
+  font-family: cursive;
+} */
+#fb{
+  background-color: #7b95b6;
+}
+#fb:hover{
+  background-color: #2d4373; 
+}
+#linked:hover{
+  background-color: #2d4373;
+}
+.images{
+  margin-left: 25px;
+}
+.uppercase {
+  color: darkslategrey;
+  text-transform: uppercase;
+}
+.cursive {
+  font-family: cursive;
+}
+
+#blog-title:hover {
+  color: rgba(255, 0, 0, 0.5);
+}
+#blog-title {
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+#blog-title a:hover {
+  color: #dc6520;
+}
+li p {
+  color: dimgrey;
+}
+article {
+  word-spacing: 1px;
+  line-height: 1.4;
+}
+#blog-desc {
+  color: gray;
+}
+
+#logo {
+  width: 210px;
+}
+li a {
+  text-decoration: none;
+}
+li a:hover {
+  color: black;
+}
+#blog-link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* aside */
+aside {
+  display: inline-block;
+}
+.widget {
+  margin-bottom: 30px;
+  background-color: #fefeff;
+  border-top: 4px solid black;
+}
+.widget input {
+  background-color: #f6f7f6;
+  border: 1px solid gray;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 4px;
+  color: black;
+}
+#subscribe-form button[type="submit"] {
+  word-spacing: 3px;
+  background-color: #000000;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.widget-title {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+aside {
+  margin-top: 4%;
+  margin-left: 4%;
+  width: 20%;
+  vertical-align: top;
+}
+
+#image-btn {
+  height: 16px;
+  width: 15px;
+}
+#search {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  display: inline;
+}
+#search-btn {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+label {
+  font-weight: bold;
+  color: dimgray;
+  font-size: 1rem;
+  font-family: roboto;
+}
+author {
+  display: inline-block;
+  width: 10%;
+  vertical-align: top;
+  text-align: start;
+}
+button:hover {
+  background-color: purple;
+}
+.recent p {
+  color: rgb(224, 50, 50);
+  /* font-size: 1.2rem; */
+  word-spacing: 1px;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+#p-tag{
+  color: dimgrey;
+  text-align: center;
+}
+::selection {
+  /* color: red; */
+  background: #2f8d46;
+  color: white; 
+}
+
